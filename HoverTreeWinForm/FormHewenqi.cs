@@ -6,6 +6,9 @@ namespace HoverTreeWinForm
 {
     public partial class FormHewenqi : Form
     {
+
+        
+
         /// <summary>
         /// http://hovertree.com/h/bjaf/v4y0b2l6.htm
         /// </summary>
@@ -20,6 +23,8 @@ namespace HoverTreeWinForm
         public FormHewenqi()
         {
             InitializeComponent();
+            //使控件不透明
+            this.TransparencyKey = BackColor;
         }
 
         private void button_hewenqi_Click(object sender, EventArgs e)

@@ -15,7 +15,8 @@ namespace HoverTreeWinForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormHewenqi());
+            Application.Run(new MainForm());
+            //Application.Run(new FormOpacity());
         }
     }
 }
